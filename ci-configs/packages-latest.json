@@ -2361,6 +2361,21 @@
         "install_type": "pypi",
         "prefer_source_distribution": "true"
       }
+    },
+    {
+      "package_info": {
+        "url": "https://github.com/Azure/azure-sdk-for-python.git",
+        "branch": "master",
+        "folder": "azure-confidentialledger",
+        "install_type": "pypi",
+        "name": "azure-confidentialledger"
+      },
+      "exclude_path": [
+        "test*",
+        "example*",
+        "sample*",
+        "doc*"
+      ]
     }
   ],
   "required_packages": [
