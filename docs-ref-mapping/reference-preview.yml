@@ -65,6 +65,15 @@
       landingPageType: Service
       children:
       - azure-mgmt-batch
+  - name: Cognitive Services
+    uid: azure.python.sdk.landingPage.services.Cognitive.Services.pre
+    href: ~/docs-ref-services/preview/cognitive-services.md
+    items:
+    - name: Speech
+      uid: azure.python.sdk.landingPage.services.Cognitive.Services.Speech.pre
+      landingPageType: Service
+      children:
+      - azure-cognitiveservices-speech*
   - name: Consumption
     uid: azure.python.sdk.landingPage.services.Consumption.pre
     href: ~/docs-ref-services/preview/consumption.md

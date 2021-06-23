@@ -11,13 +11,14 @@ constructor:
 attributes:
 - uid: azure.mgmt.core.policies.ARMHttpLoggingPolicy.DEFAULT_HEADERS_WHITELIST
   name: DEFAULT_HEADERS_WHITELIST
-  signature: 'DEFAULT_HEADERS_WHITELIST = {''Content-Type'', ''x-ms-ratelimit-remaining-subscription-reads'',
-    ''Request-Id'', ''Accept'', ''Cache-Control'', ''Transfer-Encoding'', ''Server'',
-    ''x-ms-ratelimit-remaining-tenant-resource-requests'', ''x-ms-ratelimit-remaining-subscription-resource-entities-read'',
-    ''If-Unmodified-Since'', ''If-None-Match'', ''If-Match'', ''Expires'', ''x-ms-client-request-id'',
-    ''x-ms-ratelimit-remaining-subscription-writes'', ''x-ms-ratelimit-remaining-tenant-writes'',
-    ''Date'', ''Last-Modified'', ''x-ms-ratelimit-remaining-tenant-reads'', ''Connection'',
-    ''x-ms-ratelimit-remaining-subscription-resource-requests'', ''If-Modified-Since'',
-    ''x-ms-return-client-request-id'', ''Content-Length'', ''ETag'', ''x-ms-ratelimit-remaining-resource'',
-    ''traceparent'', ''x-ms-ratelimit-remaining-tenant-resource-entities-read'', ''x-ms-request-id'',
-    ''Retry-After'', ''User-Agent'', ''Pragma'', ''x-ms-request-charge''}'
+  signature: 'DEFAULT_HEADERS_WHITELIST = {''Accept'', ''x-ms-return-client-request-id'',
+    ''Connection'', ''ETag'', ''x-ms-ratelimit-remaining-tenant-writes'', ''Expires'',
+    ''Request-Id'', ''User-Agent'', ''Last-Modified'', ''x-ms-ratelimit-remaining-tenant-resource-entities-read'',
+    ''If-Match'', ''If-Unmodified-Since'', ''Retry-After'', ''x-ms-request-charge'',
+    ''x-ms-request-id'', ''x-ms-ratelimit-remaining-subscription-reads'', ''Content-Length'',
+    ''traceparent'', ''x-ms-ratelimit-remaining-subscription-writes'', ''Server'',
+    ''x-ms-ratelimit-remaining-subscription-resource-entities-read'', ''If-Modified-Since'',
+    ''x-ms-client-request-id'', ''x-ms-ratelimit-remaining-resource'', ''x-ms-ratelimit-remaining-subscription-resource-requests'',
+    ''Content-Type'', ''If-None-Match'', ''x-ms-ratelimit-remaining-tenant-resource-requests'',
+    ''Pragma'', ''Transfer-Encoding'', ''x-ms-ratelimit-remaining-tenant-reads'',
+    ''Cache-Control'', ''Date''}'

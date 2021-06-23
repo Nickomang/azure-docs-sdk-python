@@ -730,26 +730,24 @@
       name: azure.keyvault.administration.aio
     - name: azure.keyvault.administration.ApiVersion
       uid: azure.keyvault.administration.ApiVersion
-    - name: azure.keyvault.administration.BackupOperation
-      uid: azure.keyvault.administration.BackupOperation
     - name: azure.keyvault.administration.KeyVaultAccessControlClient
       uid: azure.keyvault.administration.KeyVaultAccessControlClient
     - name: azure.keyvault.administration.KeyVaultBackupClient
       uid: azure.keyvault.administration.KeyVaultBackupClient
+    - name: azure.keyvault.administration.KeyVaultBackupResult
+      uid: azure.keyvault.administration.KeyVaultBackupResult
     - name: azure.keyvault.administration.KeyVaultDataAction
       uid: azure.keyvault.administration.KeyVaultDataAction
     - name: azure.keyvault.administration.KeyVaultPermission
       uid: azure.keyvault.administration.KeyVaultPermission
     - name: azure.keyvault.administration.KeyVaultRoleAssignment
       uid: azure.keyvault.administration.KeyVaultRoleAssignment
+    - name: azure.keyvault.administration.KeyVaultRoleAssignmentProperties
+      uid: azure.keyvault.administration.KeyVaultRoleAssignmentProperties
     - name: azure.keyvault.administration.KeyVaultRoleDefinition
       uid: azure.keyvault.administration.KeyVaultRoleDefinition
     - name: azure.keyvault.administration.KeyVaultRoleScope
       uid: azure.keyvault.administration.KeyVaultRoleScope
-    - name: azure.keyvault.administration.RestoreOperation
-      uid: azure.keyvault.administration.RestoreOperation
-    - name: azure.keyvault.administration.SelectiveKeyRestoreOperation
-      uid: azure.keyvault.administration.SelectiveKeyRestoreOperation
     name: azure.keyvault.administration
   name: azure-keyvault-administration
 
@@ -8899,8 +8897,8 @@
       uid: azure.keyvault.keys.KeyType
     - name: azure.keyvault.keys.KeyVaultKey
       uid: azure.keyvault.keys.KeyVaultKey
-    - name: azure.keyvault.keys.KeyVaultResourceId
-      uid: azure.keyvault.keys.KeyVaultResourceId
+    - name: azure.keyvault.keys.KeyVaultKeyIdentifier
+      uid: azure.keyvault.keys.KeyVaultKeyIdentifier
     name: azure.keyvault.keys
   name: azure-keyvault-keys
 
@@ -12293,4 +12291,421 @@
       uid: azure.identity.VisualStudioCodeCredential
     name: azure.identity
   name: azure-identity
+
+- items:
+  - name: Overview
+    uid: project-azure-cognitiveservices-speech
+  - items:
+    - name: Overview
+      uid: azure.cognitiveservices.speech
+    - items:
+      - name: Overview
+        uid: azure.cognitiveservices.speech.audio
+      - name: azure.cognitiveservices.speech.audio.AudioConfig
+        uid: azure.cognitiveservices.speech.audio.AudioConfig
+      - name: azure.cognitiveservices.speech.audio.AudioInputStream
+        uid: azure.cognitiveservices.speech.audio.AudioInputStream
+      - name: azure.cognitiveservices.speech.audio.AudioOutputConfig
+        uid: azure.cognitiveservices.speech.audio.AudioOutputConfig
+      - name: azure.cognitiveservices.speech.audio.AudioOutputStream
+        uid: azure.cognitiveservices.speech.audio.AudioOutputStream
+      - name: azure.cognitiveservices.speech.audio.AudioStreamFormat
+        uid: azure.cognitiveservices.speech.audio.AudioStreamFormat
+      - name: azure.cognitiveservices.speech.audio.PullAudioInputStream
+        uid: azure.cognitiveservices.speech.audio.PullAudioInputStream
+      - name: azure.cognitiveservices.speech.audio.PullAudioInputStreamCallback
+        uid: azure.cognitiveservices.speech.audio.PullAudioInputStreamCallback
+      - name: azure.cognitiveservices.speech.audio.PullAudioOutputStream
+        uid: azure.cognitiveservices.speech.audio.PullAudioOutputStream
+      - name: azure.cognitiveservices.speech.audio.PushAudioInputStream
+        uid: azure.cognitiveservices.speech.audio.PushAudioInputStream
+      - name: azure.cognitiveservices.speech.audio.PushAudioOutputStream
+        uid: azure.cognitiveservices.speech.audio.PushAudioOutputStream
+      - name: azure.cognitiveservices.speech.audio.PushAudioOutputStreamCallback
+        uid: azure.cognitiveservices.speech.audio.PushAudioOutputStreamCallback
+      name: azure.cognitiveservices.speech.audio
+    - items:
+      - name: Overview
+        uid: azure.cognitiveservices.speech.intent
+      - name: azure.cognitiveservices.speech.intent.IntentRecognitionCanceledEventArgs
+        uid: azure.cognitiveservices.speech.intent.IntentRecognitionCanceledEventArgs
+      - name: azure.cognitiveservices.speech.intent.IntentRecognitionEventArgs
+        uid: azure.cognitiveservices.speech.intent.IntentRecognitionEventArgs
+      - name: azure.cognitiveservices.speech.intent.IntentRecognitionResult
+        uid: azure.cognitiveservices.speech.intent.IntentRecognitionResult
+      - name: azure.cognitiveservices.speech.intent.IntentRecognizer
+        uid: azure.cognitiveservices.speech.intent.IntentRecognizer
+      - name: azure.cognitiveservices.speech.intent.LanguageUnderstandingModel
+        uid: azure.cognitiveservices.speech.intent.LanguageUnderstandingModel
+      name: azure.cognitiveservices.speech.intent
+    - items:
+      - name: Overview
+        uid: azure.cognitiveservices.speech.languageconfig
+      - name: azure.cognitiveservices.speech.languageconfig.AutoDetectSourceLanguageConfig
+        uid: azure.cognitiveservices.speech.languageconfig.AutoDetectSourceLanguageConfig
+      - name: azure.cognitiveservices.speech.languageconfig.SourceLanguageConfig
+        uid: azure.cognitiveservices.speech.languageconfig.SourceLanguageConfig
+      name: azure.cognitiveservices.speech.languageconfig
+    - items:
+      - name: Overview
+        uid: azure.cognitiveservices.speech.speech
+      - name: azure.cognitiveservices.speech.speech.PronunciationAssessmentPhonemeResult
+        uid: azure.cognitiveservices.speech.speech.PronunciationAssessmentPhonemeResult
+      - name: azure.cognitiveservices.speech.speech.PronunciationAssessmentWordResult
+        uid: azure.cognitiveservices.speech.speech.PronunciationAssessmentWordResult
+      name: azure.cognitiveservices.speech.speech
+    - items:
+      - name: Overview
+        uid: azure.cognitiveservices.speech.speech_py_impl
+      - name: azure.cognitiveservices.speech.speech_py_impl.ActivityReceivedEventArgs
+        uid: azure.cognitiveservices.speech.speech_py_impl.ActivityReceivedEventArgs
+      - name: azure.cognitiveservices.speech.speech_py_impl.ActivityReceivedEventListener
+        uid: azure.cognitiveservices.speech.speech_py_impl.ActivityReceivedEventListener
+      - name: azure.cognitiveservices.speech.speech_py_impl.ActivityReceivedEventSignal
+        uid: azure.cognitiveservices.speech.speech_py_impl.ActivityReceivedEventSignal
+      - name: azure.cognitiveservices.speech.speech_py_impl.AudioConfig
+        uid: azure.cognitiveservices.speech.speech_py_impl.AudioConfig
+      - name: azure.cognitiveservices.speech.speech_py_impl.AudioDataStream
+        uid: azure.cognitiveservices.speech.speech_py_impl.AudioDataStream
+      - name: azure.cognitiveservices.speech.speech_py_impl.AudioInputStream
+        uid: azure.cognitiveservices.speech.speech_py_impl.AudioInputStream
+      - name: azure.cognitiveservices.speech.speech_py_impl.AudioOutputStream
+        uid: azure.cognitiveservices.speech.speech_py_impl.AudioOutputStream
+      - name: azure.cognitiveservices.speech.speech_py_impl.AudioStreamFormat
+        uid: azure.cognitiveservices.speech.speech_py_impl.AudioStreamFormat
+      - name: azure.cognitiveservices.speech.speech_py_impl.AutoDetectSourceLanguageConfig
+        uid: azure.cognitiveservices.speech.speech_py_impl.AutoDetectSourceLanguageConfig
+      - name: azure.cognitiveservices.speech.speech_py_impl.AutoDetectSourceLanguageResult
+        uid: azure.cognitiveservices.speech.speech_py_impl.AutoDetectSourceLanguageResult
+      - name: azure.cognitiveservices.speech.speech_py_impl.BaseAsyncRecognizer
+        uid: azure.cognitiveservices.speech.speech_py_impl.BaseAsyncRecognizer
+      - name: azure.cognitiveservices.speech.speech_py_impl.BaseRecognizerBase
+        uid: azure.cognitiveservices.speech.speech_py_impl.BaseRecognizerBase
+      - name: azure.cognitiveservices.speech.speech_py_impl.BotFrameworkConfig
+        uid: azure.cognitiveservices.speech.speech_py_impl.BotFrameworkConfig
+      - name: azure.cognitiveservices.speech.speech_py_impl.ClassLanguageModel
+        uid: azure.cognitiveservices.speech.speech_py_impl.ClassLanguageModel
+      - name: azure.cognitiveservices.speech.speech_py_impl.Connection
+        uid: azure.cognitiveservices.speech.speech_py_impl.Connection
+      - name: azure.cognitiveservices.speech.speech_py_impl.ConnectionEventArgs
+        uid: azure.cognitiveservices.speech.speech_py_impl.ConnectionEventArgs
+      - name: azure.cognitiveservices.speech.speech_py_impl.ConnectionEventSignal
+        uid: azure.cognitiveservices.speech.speech_py_impl.ConnectionEventSignal
+      - name: azure.cognitiveservices.speech.speech_py_impl.Conversation
+        uid: azure.cognitiveservices.speech.speech_py_impl.Conversation
+      - name: azure.cognitiveservices.speech.speech_py_impl.ConversationPtrFuture
+        uid: azure.cognitiveservices.speech.speech_py_impl.ConversationPtrFuture
+      - name: azure.cognitiveservices.speech.speech_py_impl.ConversationTranscriber
+        uid: azure.cognitiveservices.speech.speech_py_impl.ConversationTranscriber
+      - name: azure.cognitiveservices.speech.speech_py_impl.ConversationTranscriberCanceledEventSignal
+        uid: azure.cognitiveservices.speech.speech_py_impl.ConversationTranscriberCanceledEventSignal
+      - name: azure.cognitiveservices.speech.speech_py_impl.ConversationTranscriberEventSignal
+        uid: azure.cognitiveservices.speech.speech_py_impl.ConversationTranscriberEventSignal
+      - name: azure.cognitiveservices.speech.speech_py_impl.ConversationTranscriberRecognizerBase
+        uid: azure.cognitiveservices.speech.speech_py_impl.ConversationTranscriberRecognizerBase
+      - name: azure.cognitiveservices.speech.speech_py_impl.ConversationTranscriptionCanceledEventArgs
+        uid: azure.cognitiveservices.speech.speech_py_impl.ConversationTranscriptionCanceledEventArgs
+      - name: azure.cognitiveservices.speech.speech_py_impl.ConversationTranscriptionEventArgs
+        uid: azure.cognitiveservices.speech.speech_py_impl.ConversationTranscriptionEventArgs
+      - name: azure.cognitiveservices.speech.speech_py_impl.ConversationTranscriptionResult
+        uid: azure.cognitiveservices.speech.speech_py_impl.ConversationTranscriptionResult
+      - name: azure.cognitiveservices.speech.speech_py_impl.CustomCommandsConfig
+        uid: azure.cognitiveservices.speech.speech_py_impl.CustomCommandsConfig
+      - name: azure.cognitiveservices.speech.speech_py_impl.DialogServiceConfig
+        uid: azure.cognitiveservices.speech.speech_py_impl.DialogServiceConfig
+      - name: azure.cognitiveservices.speech.speech_py_impl.DialogServiceConnector
+        uid: azure.cognitiveservices.speech.speech_py_impl.DialogServiceConnector
+      - name: azure.cognitiveservices.speech.speech_py_impl.EventArgs
+        uid: azure.cognitiveservices.speech.speech_py_impl.EventArgs
+      - name: azure.cognitiveservices.speech.speech_py_impl.Grammar
+        uid: azure.cognitiveservices.speech.speech_py_impl.Grammar
+      - name: azure.cognitiveservices.speech.speech_py_impl.GrammarList
+        uid: azure.cognitiveservices.speech.speech_py_impl.GrammarList
+      - name: azure.cognitiveservices.speech.speech_py_impl.IntentCanceledEventSignal
+        uid: azure.cognitiveservices.speech.speech_py_impl.IntentCanceledEventSignal
+      - name: azure.cognitiveservices.speech.speech_py_impl.IntentEventSignal
+        uid: azure.cognitiveservices.speech.speech_py_impl.IntentEventSignal
+      - name: azure.cognitiveservices.speech.speech_py_impl.IntentRecognitionCanceledEventArgs
+        uid: azure.cognitiveservices.speech.speech_py_impl.IntentRecognitionCanceledEventArgs
+      - name: azure.cognitiveservices.speech.speech_py_impl.IntentRecognitionEventArgs
+        uid: azure.cognitiveservices.speech.speech_py_impl.IntentRecognitionEventArgs
+      - name: azure.cognitiveservices.speech.speech_py_impl.IntentRecognitionResult
+        uid: azure.cognitiveservices.speech.speech_py_impl.IntentRecognitionResult
+      - name: azure.cognitiveservices.speech.speech_py_impl.IntentRecognitionResultPtrFuture
+        uid: azure.cognitiveservices.speech.speech_py_impl.IntentRecognitionResultPtrFuture
+      - name: azure.cognitiveservices.speech.speech_py_impl.IntentRecognizer
+        uid: azure.cognitiveservices.speech.speech_py_impl.IntentRecognizer
+      - name: azure.cognitiveservices.speech.speech_py_impl.IntentRecognizerBase
+        uid: azure.cognitiveservices.speech.speech_py_impl.IntentRecognizerBase
+      - name: azure.cognitiveservices.speech.speech_py_impl.IntentTrigger
+        uid: azure.cognitiveservices.speech.speech_py_impl.IntentTrigger
+      - name: azure.cognitiveservices.speech.speech_py_impl.KeywordRecognitionEventArgs
+        uid: azure.cognitiveservices.speech.speech_py_impl.KeywordRecognitionEventArgs
+      - name: azure.cognitiveservices.speech.speech_py_impl.KeywordRecognitionEventSignal
+        uid: azure.cognitiveservices.speech.speech_py_impl.KeywordRecognitionEventSignal
+      - name: azure.cognitiveservices.speech.speech_py_impl.KeywordRecognitionModel
+        uid: azure.cognitiveservices.speech.speech_py_impl.KeywordRecognitionModel
+      - name: azure.cognitiveservices.speech.speech_py_impl.KeywordRecognitionResult
+        uid: azure.cognitiveservices.speech.speech_py_impl.KeywordRecognitionResult
+      - name: azure.cognitiveservices.speech.speech_py_impl.KeywordRecognitionResultPtrFuture
+        uid: azure.cognitiveservices.speech.speech_py_impl.KeywordRecognitionResultPtrFuture
+      - name: azure.cognitiveservices.speech.speech_py_impl.KeywordRecognizer
+        uid: azure.cognitiveservices.speech.speech_py_impl.KeywordRecognizer
+      - name: azure.cognitiveservices.speech.speech_py_impl.LanguageUnderstandingModel
+        uid: azure.cognitiveservices.speech.speech_py_impl.LanguageUnderstandingModel
+      - name: azure.cognitiveservices.speech.speech_py_impl.Participant
+        uid: azure.cognitiveservices.speech.speech_py_impl.Participant
+      - name: azure.cognitiveservices.speech.speech_py_impl.ParticipantPtrFuture
+        uid: azure.cognitiveservices.speech.speech_py_impl.ParticipantPtrFuture
+      - name: azure.cognitiveservices.speech.speech_py_impl.PhraseListGrammar
+        uid: azure.cognitiveservices.speech.speech_py_impl.PhraseListGrammar
+      - name: azure.cognitiveservices.speech.speech_py_impl.PronunciationAssessmentConfig
+        uid: azure.cognitiveservices.speech.speech_py_impl.PronunciationAssessmentConfig
+      - name: azure.cognitiveservices.speech.speech_py_impl.PronunciationAssessmentResult
+        uid: azure.cognitiveservices.speech.speech_py_impl.PronunciationAssessmentResult
+      - name: azure.cognitiveservices.speech.speech_py_impl.PullAudioInputStream
+        uid: azure.cognitiveservices.speech.speech_py_impl.PullAudioInputStream
+      - name: azure.cognitiveservices.speech.speech_py_impl.PullAudioInputStreamCallback
+        uid: azure.cognitiveservices.speech.speech_py_impl.PullAudioInputStreamCallback
+      - name: azure.cognitiveservices.speech.speech_py_impl.PullAudioOutputStream
+        uid: azure.cognitiveservices.speech.speech_py_impl.PullAudioOutputStream
+      - name: azure.cognitiveservices.speech.speech_py_impl.PushAudioInputStream
+        uid: azure.cognitiveservices.speech.speech_py_impl.PushAudioInputStream
+      - name: azure.cognitiveservices.speech.speech_py_impl.PushAudioOutputStream
+        uid: azure.cognitiveservices.speech.speech_py_impl.PushAudioOutputStream
+      - name: azure.cognitiveservices.speech.speech_py_impl.PushAudioOutputStreamCallback
+        uid: azure.cognitiveservices.speech.speech_py_impl.PushAudioOutputStreamCallback
+      - name: azure.cognitiveservices.speech.speech_py_impl.RecognitionEventArgs
+        uid: azure.cognitiveservices.speech.speech_py_impl.RecognitionEventArgs
+      - name: azure.cognitiveservices.speech.speech_py_impl.RecognitionEventSignal
+        uid: azure.cognitiveservices.speech.speech_py_impl.RecognitionEventSignal
+      - name: azure.cognitiveservices.speech.speech_py_impl.RecognitionResult
+        uid: azure.cognitiveservices.speech.speech_py_impl.RecognitionResult
+      - name: azure.cognitiveservices.speech.speech_py_impl.Recognizer
+        uid: azure.cognitiveservices.speech.speech_py_impl.Recognizer
+      - name: azure.cognitiveservices.speech.speech_py_impl.Session
+        uid: azure.cognitiveservices.speech.speech_py_impl.Session
+      - name: azure.cognitiveservices.speech.speech_py_impl.SessionEventArgs
+        uid: azure.cognitiveservices.speech.speech_py_impl.SessionEventArgs
+      - name: azure.cognitiveservices.speech.speech_py_impl.SessionEventSignal
+        uid: azure.cognitiveservices.speech.speech_py_impl.SessionEventSignal
+      - name: azure.cognitiveservices.speech.speech_py_impl.SourceLanguageConfig
+        uid: azure.cognitiveservices.speech.speech_py_impl.SourceLanguageConfig
+      - name: azure.cognitiveservices.speech.speech_py_impl.SourceLanguageConfigPtrVector
+        uid: azure.cognitiveservices.speech.speech_py_impl.SourceLanguageConfigPtrVector
+      - name: azure.cognitiveservices.speech.speech_py_impl.SpeechConfig
+        uid: azure.cognitiveservices.speech.speech_py_impl.SpeechConfig
+      - name: azure.cognitiveservices.speech.speech_py_impl.SpeechRecognitionCanceledEventArgs
+        uid: azure.cognitiveservices.speech.speech_py_impl.SpeechRecognitionCanceledEventArgs
+      - name: azure.cognitiveservices.speech.speech_py_impl.SpeechRecognitionCanceledEventSignal
+        uid: azure.cognitiveservices.speech.speech_py_impl.SpeechRecognitionCanceledEventSignal
+      - name: azure.cognitiveservices.speech.speech_py_impl.SpeechRecognitionEventArgs
+        uid: azure.cognitiveservices.speech.speech_py_impl.SpeechRecognitionEventArgs
+      - name: azure.cognitiveservices.speech.speech_py_impl.SpeechRecognitionEventSignal
+        uid: azure.cognitiveservices.speech.speech_py_impl.SpeechRecognitionEventSignal
+      - name: azure.cognitiveservices.speech.speech_py_impl.SpeechRecognitionResult
+        uid: azure.cognitiveservices.speech.speech_py_impl.SpeechRecognitionResult
+      - name: azure.cognitiveservices.speech.speech_py_impl.SpeechRecognitionResultPtrFuture
+        uid: azure.cognitiveservices.speech.speech_py_impl.SpeechRecognitionResultPtrFuture
+      - name: azure.cognitiveservices.speech.speech_py_impl.SpeechRecognizer
+        uid: azure.cognitiveservices.speech.speech_py_impl.SpeechRecognizer
+      - name: azure.cognitiveservices.speech.speech_py_impl.SpeechRecognizerBase
+        uid: azure.cognitiveservices.speech.speech_py_impl.SpeechRecognizerBase
+      - name: azure.cognitiveservices.speech.speech_py_impl.SpeechSynthesisBookmarkEventArgs
+        uid: azure.cognitiveservices.speech.speech_py_impl.SpeechSynthesisBookmarkEventArgs
+      - name: azure.cognitiveservices.speech.speech_py_impl.SpeechSynthesisBookmarkEventSignal
+        uid: azure.cognitiveservices.speech.speech_py_impl.SpeechSynthesisBookmarkEventSignal
+      - name: azure.cognitiveservices.speech.speech_py_impl.SpeechSynthesisEventArgs
+        uid: azure.cognitiveservices.speech.speech_py_impl.SpeechSynthesisEventArgs
+      - name: azure.cognitiveservices.speech.speech_py_impl.SpeechSynthesisEventSignal
+        uid: azure.cognitiveservices.speech.speech_py_impl.SpeechSynthesisEventSignal
+      - name: azure.cognitiveservices.speech.speech_py_impl.SpeechSynthesisResult
+        uid: azure.cognitiveservices.speech.speech_py_impl.SpeechSynthesisResult
+      - name: azure.cognitiveservices.speech.speech_py_impl.SpeechSynthesisResultPtrFuture
+        uid: azure.cognitiveservices.speech.speech_py_impl.SpeechSynthesisResultPtrFuture
+      - name: azure.cognitiveservices.speech.speech_py_impl.SpeechSynthesisVisemeEventArgs
+        uid: azure.cognitiveservices.speech.speech_py_impl.SpeechSynthesisVisemeEventArgs
+      - name: azure.cognitiveservices.speech.speech_py_impl.SpeechSynthesisVisemeEventSignal
+        uid: azure.cognitiveservices.speech.speech_py_impl.SpeechSynthesisVisemeEventSignal
+      - name: azure.cognitiveservices.speech.speech_py_impl.SpeechSynthesisWordBoundaryEventArgs
+        uid: azure.cognitiveservices.speech.speech_py_impl.SpeechSynthesisWordBoundaryEventArgs
+      - name: azure.cognitiveservices.speech.speech_py_impl.SpeechSynthesisWordBoundaryEventSignal
+        uid: azure.cognitiveservices.speech.speech_py_impl.SpeechSynthesisWordBoundaryEventSignal
+      - name: azure.cognitiveservices.speech.speech_py_impl.SpeechSynthesizer
+        uid: azure.cognitiveservices.speech.speech_py_impl.SpeechSynthesizer
+      - name: azure.cognitiveservices.speech.speech_py_impl.SpeechTranslationConfig
+        uid: azure.cognitiveservices.speech.speech_py_impl.SpeechTranslationConfig
+      - name: azure.cognitiveservices.speech.speech_py_impl.StdMapStringString
+        uid: azure.cognitiveservices.speech.speech_py_impl.StdMapStringString
+      - name: azure.cognitiveservices.speech.speech_py_impl.StringFuture
+        uid: azure.cognitiveservices.speech.speech_py_impl.StringFuture
+      - name: azure.cognitiveservices.speech.speech_py_impl.StringVector
+        uid: azure.cognitiveservices.speech.speech_py_impl.StringVector
+      - name: azure.cognitiveservices.speech.speech_py_impl.SwigPyIterator
+        uid: azure.cognitiveservices.speech.speech_py_impl.SwigPyIterator
+      - name: azure.cognitiveservices.speech.speech_py_impl.SynthesisVoicesResult
+        uid: azure.cognitiveservices.speech.speech_py_impl.SynthesisVoicesResult
+      - name: azure.cognitiveservices.speech.speech_py_impl.SynthesisVoicesResultPtrFuture
+        uid: azure.cognitiveservices.speech.speech_py_impl.SynthesisVoicesResultPtrFuture
+      - name: azure.cognitiveservices.speech.speech_py_impl.TranslationRecognitionCanceledEventArgs
+        uid: azure.cognitiveservices.speech.speech_py_impl.TranslationRecognitionCanceledEventArgs
+      - name: azure.cognitiveservices.speech.speech_py_impl.TranslationRecognitionEventArgs
+        uid: azure.cognitiveservices.speech.speech_py_impl.TranslationRecognitionEventArgs
+      - name: azure.cognitiveservices.speech.speech_py_impl.TranslationRecognitionResult
+        uid: azure.cognitiveservices.speech.speech_py_impl.TranslationRecognitionResult
+      - name: azure.cognitiveservices.speech.speech_py_impl.TranslationRecognitionResultPtrFuture
+        uid: azure.cognitiveservices.speech.speech_py_impl.TranslationRecognitionResultPtrFuture
+      - name: azure.cognitiveservices.speech.speech_py_impl.TranslationRecognizer
+        uid: azure.cognitiveservices.speech.speech_py_impl.TranslationRecognizer
+      - name: azure.cognitiveservices.speech.speech_py_impl.TranslationRecognizerBase
+        uid: azure.cognitiveservices.speech.speech_py_impl.TranslationRecognizerBase
+      - name: azure.cognitiveservices.speech.speech_py_impl.TranslationSynthesisEventArgs
+        uid: azure.cognitiveservices.speech.speech_py_impl.TranslationSynthesisEventArgs
+      - name: azure.cognitiveservices.speech.speech_py_impl.TranslationSynthesisEventSignal
+        uid: azure.cognitiveservices.speech.speech_py_impl.TranslationSynthesisEventSignal
+      - name: azure.cognitiveservices.speech.speech_py_impl.TranslationSynthesisResult
+        uid: azure.cognitiveservices.speech.speech_py_impl.TranslationSynthesisResult
+      - name: azure.cognitiveservices.speech.speech_py_impl.TranslationTextCanceledEventSignal
+        uid: azure.cognitiveservices.speech.speech_py_impl.TranslationTextCanceledEventSignal
+      - name: azure.cognitiveservices.speech.speech_py_impl.TranslationTextEventSignal
+        uid: azure.cognitiveservices.speech.speech_py_impl.TranslationTextEventSignal
+      - name: azure.cognitiveservices.speech.speech_py_impl.TurnStatusReceivedEventArgs
+        uid: azure.cognitiveservices.speech.speech_py_impl.TurnStatusReceivedEventArgs
+      - name: azure.cognitiveservices.speech.speech_py_impl.TurnStatusReceivedEventListener
+        uid: azure.cognitiveservices.speech.speech_py_impl.TurnStatusReceivedEventListener
+      - name: azure.cognitiveservices.speech.speech_py_impl.TurnStatusReceivedEventSignal
+        uid: azure.cognitiveservices.speech.speech_py_impl.TurnStatusReceivedEventSignal
+      - name: azure.cognitiveservices.speech.speech_py_impl.Uint8Vector
+        uid: azure.cognitiveservices.speech.speech_py_impl.Uint8Vector
+      - name: azure.cognitiveservices.speech.speech_py_impl.User
+        uid: azure.cognitiveservices.speech.speech_py_impl.User
+      - name: azure.cognitiveservices.speech.speech_py_impl.UserPtrFuture
+        uid: azure.cognitiveservices.speech.speech_py_impl.UserPtrFuture
+      - name: azure.cognitiveservices.speech.speech_py_impl.VoiceInfo
+        uid: azure.cognitiveservices.speech.speech_py_impl.VoiceInfo
+      - name: azure.cognitiveservices.speech.speech_py_impl.VoiceInfoVector
+        uid: azure.cognitiveservices.speech.speech_py_impl.VoiceInfoVector
+      - name: azure.cognitiveservices.speech.speech_py_impl.VoidFuture
+        uid: azure.cognitiveservices.speech.speech_py_impl.VoidFuture
+      name: azure.cognitiveservices.speech.speech_py_impl
+    - items:
+      - name: Overview
+        uid: azure.cognitiveservices.speech.translation
+      - name: azure.cognitiveservices.speech.translation.SpeechTranslationConfig
+        uid: azure.cognitiveservices.speech.translation.SpeechTranslationConfig
+      - name: azure.cognitiveservices.speech.translation.TranslationRecognitionCanceledEventArgs
+        uid: azure.cognitiveservices.speech.translation.TranslationRecognitionCanceledEventArgs
+      - name: azure.cognitiveservices.speech.translation.TranslationRecognitionEventArgs
+        uid: azure.cognitiveservices.speech.translation.TranslationRecognitionEventArgs
+      - name: azure.cognitiveservices.speech.translation.TranslationRecognitionResult
+        uid: azure.cognitiveservices.speech.translation.TranslationRecognitionResult
+      - name: azure.cognitiveservices.speech.translation.TranslationRecognizer
+        uid: azure.cognitiveservices.speech.translation.TranslationRecognizer
+      - name: azure.cognitiveservices.speech.translation.TranslationSynthesisEventArgs
+        uid: azure.cognitiveservices.speech.translation.TranslationSynthesisEventArgs
+      - name: azure.cognitiveservices.speech.translation.TranslationSynthesisResult
+        uid: azure.cognitiveservices.speech.translation.TranslationSynthesisResult
+      name: azure.cognitiveservices.speech.translation
+    - name: azure.cognitiveservices.speech.version
+      uid: azure.cognitiveservices.speech.version
+    - name: azure.cognitiveservices.speech.AudioDataStream
+      uid: azure.cognitiveservices.speech.AudioDataStream
+    - name: azure.cognitiveservices.speech.AudioStreamContainerFormat
+      uid: azure.cognitiveservices.speech.AudioStreamContainerFormat
+    - name: azure.cognitiveservices.speech.AutoDetectSourceLanguageResult
+      uid: azure.cognitiveservices.speech.AutoDetectSourceLanguageResult
+    - name: azure.cognitiveservices.speech.CancellationDetails
+      uid: azure.cognitiveservices.speech.CancellationDetails
+    - name: azure.cognitiveservices.speech.CancellationErrorCode
+      uid: azure.cognitiveservices.speech.CancellationErrorCode
+    - name: azure.cognitiveservices.speech.CancellationReason
+      uid: azure.cognitiveservices.speech.CancellationReason
+    - name: azure.cognitiveservices.speech.Connection
+      uid: azure.cognitiveservices.speech.Connection
+    - name: azure.cognitiveservices.speech.ConnectionEventArgs
+      uid: azure.cognitiveservices.speech.ConnectionEventArgs
+    - name: azure.cognitiveservices.speech.EventSignal
+      uid: azure.cognitiveservices.speech.EventSignal
+    - name: azure.cognitiveservices.speech.KeywordRecognitionEventArgs
+      uid: azure.cognitiveservices.speech.KeywordRecognitionEventArgs
+    - name: azure.cognitiveservices.speech.KeywordRecognitionModel
+      uid: azure.cognitiveservices.speech.KeywordRecognitionModel
+    - name: azure.cognitiveservices.speech.KeywordRecognitionResult
+      uid: azure.cognitiveservices.speech.KeywordRecognitionResult
+    - name: azure.cognitiveservices.speech.KeywordRecognizer
+      uid: azure.cognitiveservices.speech.KeywordRecognizer
+    - name: azure.cognitiveservices.speech.NoMatchDetails
+      uid: azure.cognitiveservices.speech.NoMatchDetails
+    - name: azure.cognitiveservices.speech.NoMatchReason
+      uid: azure.cognitiveservices.speech.NoMatchReason
+    - name: azure.cognitiveservices.speech.OutputFormat
+      uid: azure.cognitiveservices.speech.OutputFormat
+    - name: azure.cognitiveservices.speech.PhraseListGrammar
+      uid: azure.cognitiveservices.speech.PhraseListGrammar
+    - name: azure.cognitiveservices.speech.ProfanityOption
+      uid: azure.cognitiveservices.speech.ProfanityOption
+    - name: azure.cognitiveservices.speech.PronunciationAssessmentConfig
+      uid: azure.cognitiveservices.speech.PronunciationAssessmentConfig
+    - name: azure.cognitiveservices.speech.PronunciationAssessmentGradingSystem
+      uid: azure.cognitiveservices.speech.PronunciationAssessmentGradingSystem
+    - name: azure.cognitiveservices.speech.PronunciationAssessmentGranularity
+      uid: azure.cognitiveservices.speech.PronunciationAssessmentGranularity
+    - name: azure.cognitiveservices.speech.PronunciationAssessmentResult
+      uid: azure.cognitiveservices.speech.PronunciationAssessmentResult
+    - name: azure.cognitiveservices.speech.PropertyCollection
+      uid: azure.cognitiveservices.speech.PropertyCollection
+    - name: azure.cognitiveservices.speech.PropertyId
+      uid: azure.cognitiveservices.speech.PropertyId
+    - name: azure.cognitiveservices.speech.RecognitionEventArgs
+      uid: azure.cognitiveservices.speech.RecognitionEventArgs
+    - name: azure.cognitiveservices.speech.RecognitionResult
+      uid: azure.cognitiveservices.speech.RecognitionResult
+    - name: azure.cognitiveservices.speech.Recognizer
+      uid: azure.cognitiveservices.speech.Recognizer
+    - name: azure.cognitiveservices.speech.ResultFuture
+      uid: azure.cognitiveservices.speech.ResultFuture
+    - name: azure.cognitiveservices.speech.ResultReason
+      uid: azure.cognitiveservices.speech.ResultReason
+    - name: azure.cognitiveservices.speech.ServicePropertyChannel
+      uid: azure.cognitiveservices.speech.ServicePropertyChannel
+    - name: azure.cognitiveservices.speech.SessionEventArgs
+      uid: azure.cognitiveservices.speech.SessionEventArgs
+    - name: azure.cognitiveservices.speech.SpeechConfig
+      uid: azure.cognitiveservices.speech.SpeechConfig
+    - name: azure.cognitiveservices.speech.SpeechRecognitionCanceledEventArgs
+      uid: azure.cognitiveservices.speech.SpeechRecognitionCanceledEventArgs
+    - name: azure.cognitiveservices.speech.SpeechRecognitionEventArgs
+      uid: azure.cognitiveservices.speech.SpeechRecognitionEventArgs
+    - name: azure.cognitiveservices.speech.SpeechRecognitionResult
+      uid: azure.cognitiveservices.speech.SpeechRecognitionResult
+    - name: azure.cognitiveservices.speech.SpeechRecognizer
+      uid: azure.cognitiveservices.speech.SpeechRecognizer
+    - name: azure.cognitiveservices.speech.SpeechSynthesisBookmarkEventArgs
+      uid: azure.cognitiveservices.speech.SpeechSynthesisBookmarkEventArgs
+    - name: azure.cognitiveservices.speech.SpeechSynthesisCancellationDetails
+      uid: azure.cognitiveservices.speech.SpeechSynthesisCancellationDetails
+    - name: azure.cognitiveservices.speech.SpeechSynthesisEventArgs
+      uid: azure.cognitiveservices.speech.SpeechSynthesisEventArgs
+    - name: azure.cognitiveservices.speech.SpeechSynthesisOutputFormat
+      uid: azure.cognitiveservices.speech.SpeechSynthesisOutputFormat
+    - name: azure.cognitiveservices.speech.SpeechSynthesisResult
+      uid: azure.cognitiveservices.speech.SpeechSynthesisResult
+    - name: azure.cognitiveservices.speech.SpeechSynthesisVisemeEventArgs
+      uid: azure.cognitiveservices.speech.SpeechSynthesisVisemeEventArgs
+    - name: azure.cognitiveservices.speech.SpeechSynthesisWordBoundaryEventArgs
+      uid: azure.cognitiveservices.speech.SpeechSynthesisWordBoundaryEventArgs
+    - name: azure.cognitiveservices.speech.SpeechSynthesizer
+      uid: azure.cognitiveservices.speech.SpeechSynthesizer
+    - name: azure.cognitiveservices.speech.StreamStatus
+      uid: azure.cognitiveservices.speech.StreamStatus
+    - name: azure.cognitiveservices.speech.SynthesisVoiceGender
+      uid: azure.cognitiveservices.speech.SynthesisVoiceGender
+    - name: azure.cognitiveservices.speech.SynthesisVoiceType
+      uid: azure.cognitiveservices.speech.SynthesisVoiceType
+    - name: azure.cognitiveservices.speech.SynthesisVoicesResult
+      uid: azure.cognitiveservices.speech.SynthesisVoicesResult
+    - name: azure.cognitiveservices.speech.VoiceInfo
+      uid: azure.cognitiveservices.speech.VoiceInfo
+    name: azure.cognitiveservices.speech
+  name: azure-cognitiveservices-speech
 
