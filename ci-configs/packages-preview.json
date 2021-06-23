@@ -871,6 +871,22 @@
         "prefer_source_distribution": "true",
         "version": ">=1.7.0b1"
       }
+    },
+    {
+      "package_info": {
+        "url": "https://msasg.visualstudio.com/Skyman/_git/Carbon",
+        "branch": "master",
+        "folder": "source/bindings/python",
+        "install_type": "pypi",
+        "name": "azure-cognitiveservices-speech"
+      },
+      "exclude_path": [
+        "test*",
+        "example*",
+        "sample*",
+        "doc*",
+        "azure_bdist_wheel.py"
+      ]
     }
   ],
   "required_packages": [
